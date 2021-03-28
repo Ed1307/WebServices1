@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Oranjereya" type="OranjereyaType"/>
+  <xs:complexType name="Growing_tipsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Temperatura"/>
+      <xs:element type="xs:string" name="Osvesheniye"/>
+      <xs:element type="xs:string" name="Poliv"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FlowerType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Name"/>
+      <xs:element type="xs:string" name="Soil"/>
+      <xs:element type="xs:string" name="Origin"/>
+      <xs:element type="Visual_parametresType" name="Visual_parametres"/>
+      <xs:element type="Growing_tipsType" name="Growing_tips"/>
+      <xs:element type="xs:string" name="Multiplying"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Visual_parametresType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Cvet_steblya"/>
+      <xs:element type="xs:string" name="Cvet_listyev"/>
+      <xs:element type="xs:string" name="Razmer"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="OranjereyaType">
+    <xs:sequence>
+      <xs:element type="FlowerType" name="Flower"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

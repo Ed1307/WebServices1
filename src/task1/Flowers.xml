@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Oranjereya>
+
+    <Flower>
+        <Name>Tulpan</Name>
+        <Soil>Gruntovaya</Soil>
+        <Origin>Ukraine</Origin>
+        <Visual_parametres>
+            <Cvet_steblya>zeleny</Cvet_steblya>
+            <Cvet_listyev>zeleny</Cvet_listyev>
+            <Razmer>malenkiy</Razmer>
+        </Visual_parametres>
+        <Growing_tips>
+            <Temperatura>30</Temperatura>
+            <Osvesheniye>50</Osvesheniye>
+            <Poliv>100</Poliv>
+        </Growing_tips>
+        <Multiplying>semenami</Multiplying>
+    </Flower>
+
+</Oranjereya>
